@@ -55,11 +55,11 @@ const HomePage = () => {
             <CategoryTabs />
           </div>
         </section>
-        <section className="bg-black text-gray-500">
+        <footer className="bg-black text-gray-500">
           <div className="container mx-auto px-4 py-6">
             <Footer />
           </div>
-        </section>
+        </footer>
       </main>
     </>
   );

@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react";
+import { Link, useParams } from "react-router-dom";
+
 import Navbar from "../components/Navbar";
 import BlogPara from "../components/BlogPara";
-import { Link, useParams } from "react-router-dom";
+import Footer from "../components/Footer";
 
 import { IoCheckmark } from "react-icons/io5";
 import { MdBarChart, MdOutlineChevronLeft } from "react-icons/md";
@@ -669,6 +671,11 @@ const Blogdetails = () => {
           </div>
         </section>
       </main>
+      <footer className="bg-black text-gray-500">
+        <div className="container mx-auto px-4 py-6">
+          <Footer />
+        </div>
+      </footer>
     </div>
   );
 };
