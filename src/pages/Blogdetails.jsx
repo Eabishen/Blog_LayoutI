@@ -136,13 +136,13 @@ const Blogdetails = () => {
               <div className="col-span-full lg:col-span-8 relative max-h-full h-[480px] max-w-full p-6 bg-cover bg-center bg-no-repeat">
                 <div className="relative z-10 h-full text-white flex flex-col justify-between">
                   <div className="flex items-center gap-1">
-                    <span className="p-1 rounded-sm bg-white/25 backdrop-blur-sm">
+                    <span className="p-1 text-xs md:text-base rounded-sm bg-white/25 backdrop-blur-sm">
                       Aenean Eleifend
                     </span>
-                    <span className="p-1 rounded-sm bg-white/25 backdrop-blur-sm">
+                    <span className="p-1 text-xs md:text-base rounded-sm bg-white/25 backdrop-blur-sm">
                       Aenean Eleifend
                     </span>
-                    <span className="p-1 rounded-sm bg-white/25 backdrop-blur-sm">
+                    <span className="p-1 text-xs md:text-base rounded-sm bg-white/25 backdrop-blur-sm">
                       Aliquam
                     </span>
                   </div>
