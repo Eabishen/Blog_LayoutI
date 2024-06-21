@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "europanuvo";
+    src: url("./assets/fonts/europanuova/EuropaNuovaRegular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "europanuvo";
+    src: url('./assets/fonts/europanuova/EuropaNuovaExtraBold.ttf');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: "europanuvo";
+    src: url("./assets/fonts/europanuova/EuropaNuovaBold.ttf");
+    font-weight: 700;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+    letter-spacing: -0.005em;
+}
+
+.cust-font {
+    font-family: "europanuvo", sans-serif;
+
+}
+
+.cust-mainHeading {
+    font-family: "europanuvo", sans-serif;
+    font-weight: 400;
+}
