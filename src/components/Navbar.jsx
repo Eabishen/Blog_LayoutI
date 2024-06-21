@@ -60,7 +60,7 @@ const Navbar = ({ btnStyle }) => {
         </div>
 
         <ul
-          className={`fixed top-0 left-0 h-full w-full bg-white text-black flex flex-col items-center justify-center gap-4 transform ${
+          className={`fixed top-0 left-0 z-50 h-full w-full bg-white text-black flex flex-col items-center justify-center gap-4 transform ${
             isMenuOpen ? "translate-x-0" : "translate-x-full"
           } transition-transform duration-300 xl:static xl:flex-row xl:h-auto xl:w-auto xl:bg-transparent xl:translate-x-0`}
         >
