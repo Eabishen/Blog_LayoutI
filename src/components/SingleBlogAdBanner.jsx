@@ -9,7 +9,7 @@ const SingleBlogAdBanner = () => {
         <p className="text-xs my-4">
           Get notified of the best deals on our WordPress themes.
         </p>
-        <div className="flex md:w-[620px] max-w-full border-2 bg-white rounded p-1 border-gray-300">
+        <div className="flex w-full flex-col md:flex-row md:w-[620px] max-w-full border-2 bg-white rounded p-1 border-gray-300">
           <input
             className=" md:flex-1 py-1 text-black px-2"
             type="text"
